@@ -1,0 +1,20 @@
+//
+//  ViewController.swift
+//  Firebase Notification Demo
+//
+//  Created by Gayan Denaindra Perera on 2/11/19.
+//  Copyright © 2019 Gayan Denaindra Perera. All rights reserved.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+
+
+}
+

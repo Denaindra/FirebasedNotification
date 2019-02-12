@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Firebase_Notification_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KV0-LQ-dNE">
+                                <rect key="frame" x="103" y="309" width="169" height="49"/>
+                                <color key="backgroundColor" red="0.13005390197128999" green="0.097599284292144595" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="169" id="5gH-Qj-bSg"/>
+                                    <constraint firstAttribute="height" constant="49" id="QaV-SV-j70"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="Page Two">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="odI-OG-NtV" kind="show" id="bo2-Uz-D2N"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Page One" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2wt-xf-JF7">
+                                <rect key="frame" x="120.5" y="47" width="134" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="134" id="Avk-AZ-SnA"/>
+                                    <constraint firstAttribute="height" constant="39" id="mwb-2U-4jn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2wt-xf-JF7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6GJ-uv-3jt"/>
+                            <constraint firstItem="2wt-xf-JF7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="27" id="HOD-eL-YBY"/>
+                            <constraint firstItem="KV0-LQ-dNE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="QqR-kC-ldu"/>
+                            <constraint firstItem="KV0-LQ-dNE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jt4-ib-hgt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="100.29985007496252"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="y4V-kZ-KbR">
+            <objects>
+                <viewController id="odI-OG-NtV" customClass="SecondViewController" customModule="Firebase_Notification_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EQz-2b-m0W">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Page Two" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UU8-Tq-Pen">
+                                <rect key="frame" x="120.5" y="51" width="134" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="Fx6-Fz-vHH"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="134" id="wRm-o8-1cO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yT1-Oi-kQC">
+                                <rect key="frame" x="103" y="309" width="169" height="49"/>
+                                <color key="backgroundColor" red="0.130053902" green="0.097599284290000005" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="TO2-GV-gWf"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="169" id="Usp-it-pRX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="Page one">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="BackNavigation:" destination="odI-OG-NtV" eventType="touchUpInside" id="kkI-kl-L2t"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="UU8-Tq-Pen" firstAttribute="centerX" secondItem="EQz-2b-m0W" secondAttribute="centerX" id="9o2-9h-onz"/>
+                            <constraint firstItem="yT1-Oi-kQC" firstAttribute="centerY" secondItem="EQz-2b-m0W" secondAttribute="centerY" id="EE3-Vy-80q"/>
+                            <constraint firstItem="yT1-Oi-kQC" firstAttribute="centerX" secondItem="EQz-2b-m0W" secondAttribute="centerX" id="P8G-bu-vHM"/>
+                            <constraint firstItem="UU8-Tq-Pen" firstAttribute="top" secondItem="0KA-u7-VyV" secondAttribute="top" constant="31" id="Zfs-NG-U3u"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0KA-u7-VyV"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="mRS-Qb-STC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VSd-5M-hDj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="964" y="103"/>
+        </scene>
+    </scenes>
+</document>
