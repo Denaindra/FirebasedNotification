@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		663F7A2B2212F7DF00824163 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 663F7A2A2212F7DF00824163 /* GoogleService-Info.plist */; };
+		663432572214253300970139 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 663432562214253300970139 /* GoogleService-Info.plist */; };
 		6668162E2212896C004C72FC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6668162D2212896C004C72FC /* SecondViewController.swift */; };
 		66C5609A221199BF002E1A07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C56099221199BF002E1A07 /* AppDelegate.swift */; };
 		66C5609C221199BF002E1A07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C5609B221199BF002E1A07 /* ViewController.swift */; };
@@ -19,7 +19,7 @@
 
 /* Begin PBXFileReference section */
 		587001A44DD7B46E6002ECB4 /* Pods-Firebase Notification Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Notification Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Firebase Notification Demo/Pods-Firebase Notification Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		663F7A2A2212F7DF00824163 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		663432562214253300970139 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		663F7A2C2213058200824163 /* Firebase Notification Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Firebase Notification Demo.entitlements"; sourceTree = "<group>"; };
 		6668162D2212896C004C72FC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		66C56096221199BF002E1A07 /* Firebase Notification Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firebase Notification Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,8 +66,8 @@
 		66C56098221199BF002E1A07 /* Firebase Notification Demo */ = {
 			isa = PBXGroup;
 			children = (
+				663432562214253300970139 /* GoogleService-Info.plist */,
 				663F7A2C2213058200824163 /* Firebase Notification Demo.entitlements */,
-				663F7A2A2212F7DF00824163 /* GoogleService-Info.plist */,
 				66C56099221199BF002E1A07 /* AppDelegate.swift */,
 				66C5609B221199BF002E1A07 /* ViewController.swift */,
 				66C5609D221199BF002E1A07 /* Main.storyboard */,
@@ -162,7 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66C560A4221199C8002E1A07 /* LaunchScreen.storyboard in Resources */,
-				663F7A2B2212F7DF00824163 /* GoogleService-Info.plist in Resources */,
+				663432572214253300970139 /* GoogleService-Info.plist in Resources */,
 				66C560A1221199C8002E1A07 /* Assets.xcassets in Resources */,
 				66C5609F221199BF002E1A07 /* Main.storyboard in Resources */,
 			);
@@ -375,9 +375,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xamarin.starterkit.pushnoificationextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xamarin.starterkit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Xamarin StarterKit Push Extension Development";
+				PROVISIONING_PROFILE_SPECIFIER = "Xamarin StarterKit Development";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -398,9 +398,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xamarin.starterkit.pushnoificationextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xamarin.starterkit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Xamarin StarterKit Push Extension Distribution";
+				PROVISIONING_PROFILE_SPECIFIER = "Xamarin StarterKit Enterprise";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
