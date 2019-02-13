@@ -7,4 +7,6 @@ target 'Firebase Notification Demo' do
 
   # Pods for Firebase Notification Demo
   pod 'Firebase/Core'
+  pod 'Firebase/Core'
+  pod 'Firebase/Messaging'
 end
