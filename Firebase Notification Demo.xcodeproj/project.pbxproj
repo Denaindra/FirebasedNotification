@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		663432572214253300970139 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 663432562214253300970139 /* GoogleService-Info.plist */; };
 		6668162E2212896C004C72FC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6668162D2212896C004C72FC /* SecondViewController.swift */; };
+		66A78A5E22152EC1000745F0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66A78A5D22152EC1000745F0 /* GoogleService-Info.plist */; };
 		66C5609A221199BF002E1A07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C56099221199BF002E1A07 /* AppDelegate.swift */; };
 		66C5609C221199BF002E1A07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C5609B221199BF002E1A07 /* ViewController.swift */; };
 		66C5609F221199BF002E1A07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C5609D221199BF002E1A07 /* Main.storyboard */; };
@@ -19,9 +19,9 @@
 
 /* Begin PBXFileReference section */
 		587001A44DD7B46E6002ECB4 /* Pods-Firebase Notification Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Notification Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Firebase Notification Demo/Pods-Firebase Notification Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		663432562214253300970139 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		663F7A2C2213058200824163 /* Firebase Notification Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Firebase Notification Demo.entitlements"; sourceTree = "<group>"; };
 		6668162D2212896C004C72FC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		66A78A5D22152EC1000745F0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		66C56096221199BF002E1A07 /* Firebase Notification Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firebase Notification Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66C56099221199BF002E1A07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66C5609B221199BF002E1A07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,7 +66,6 @@
 		66C56098221199BF002E1A07 /* Firebase Notification Demo */ = {
 			isa = PBXGroup;
 			children = (
-				663432562214253300970139 /* GoogleService-Info.plist */,
 				663F7A2C2213058200824163 /* Firebase Notification Demo.entitlements */,
 				66C56099221199BF002E1A07 /* AppDelegate.swift */,
 				66C5609B221199BF002E1A07 /* ViewController.swift */,
@@ -74,6 +73,7 @@
 				66C560A0221199C8002E1A07 /* Assets.xcassets */,
 				66C560A2221199C8002E1A07 /* LaunchScreen.storyboard */,
 				66C560A5221199C8002E1A07 /* Info.plist */,
+				66A78A5D22152EC1000745F0 /* GoogleService-Info.plist */,
 				6668162D2212896C004C72FC /* SecondViewController.swift */,
 			);
 			path = "Firebase Notification Demo";
@@ -131,6 +131,9 @@
 					66C56095221199BF002E1A07 = {
 						CreatedOnToolsVersion = 10.1;
 						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
 							com.apple.Push = {
 								enabled = 1;
 							};
@@ -162,7 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66C560A4221199C8002E1A07 /* LaunchScreen.storyboard in Resources */,
-				663432572214253300970139 /* GoogleService-Info.plist in Resources */,
+				66A78A5E22152EC1000745F0 /* GoogleService-Info.plist in Resources */,
 				66C560A1221199C8002E1A07 /* Assets.xcassets in Resources */,
 				66C5609F221199BF002E1A07 /* Main.storyboard in Resources */,
 			);
